@@ -13,7 +13,16 @@ It takes any **UITextField** already present in your code (including those added
 
 and turns it into this:
 
+![alt text](https://raw.githubusercontent.com/husseinhj/DownPicker/gh-pages/images/DownPicker/UITextField.base.png "Here's a standard UITextField")
+
+and turns it into this:
+
+![persian sample](https://raw.githubusercontent.com/Husseinhj/DownPicker/master/Example/screenshots/persianSample.png)
+
+----------
+
 ![alt text](https://raw.githubusercontent.com/husseinhj/DownPicker/gh-pages/images/DownPicker/UITextField.DownPicker.png "Here's a DownPicker++ control")
+
 
 It's as simple as that. You only need to provide an array of data.
 
