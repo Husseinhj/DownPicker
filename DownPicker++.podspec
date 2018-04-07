@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "DownPicker++"
-  s.version          = "0.1.37"
+  s.version          = "0.1.38"
   s.summary          = "Lightweight class library for creating drop down list controls for iOS."
 
 # This description is used to generate tags and improve search results.
@@ -29,22 +29,20 @@ DownPicker++ is released under MIT License.
 Installation instructions, examples and documentation are available in the included README.md file.
                        DESC
 
-  s.homepage         = "https://github.com/husseinhj/DownPicker"
-  s.screenshots     = "https://raw.githubusercontent.com/husseinhj/DownPicker/gh-pages/images/DownPicker/UITextField.DownPicker.png"
+  s.homepage         = "https://github.com/Husseinhj/DownPicker"
+  s.screenshots     = "https://raw.githubusercontent.com/Husseinhj/DownPicker/gh-pages/images/DownPicker/UITextField.DownPicker.png"
   s.license          = 'MIT'
   s.author           = { "Hussein.Juybari" => "Hussein.Juybari@gmail.com" }
-  s.source           = { :git => "https://github.com/HusseinHJ/DownPicker.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/Husseinhj/DownPicker.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/hussein_juybari'
 
   s.platform     = :ios, '6.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/*.{h,m}'
-  s.resource_bundles = {
-    'DownPicker++' => ['Pod/Assets/*.png']
-  }
+  # s.resource_bundles = {
+  #    'DownPicker++' => ['Pod/Assets/*.png']
+  # }
 
   s.public_header_files = 'Pod/Classes/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
