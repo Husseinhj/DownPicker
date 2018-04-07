@@ -1,4 +1,4 @@
-# DownPicker
+# DownPicker++
 
 DownPicker is an extremely light-weight class library for creating *DropDownList* / *ComboBox* controls for iOS that will behave like their HTML / Android counterparts.
 You'll only need a standard **UITextField** and few lines of code.
@@ -8,11 +8,11 @@ You'll only need a standard **UITextField** and few lines of code.
 
 It takes any **UITextField** already present in your code (including those added to a *Storyboard*):
 
-![alt text](https://raw.githubusercontent.com/Darkseal/DownPicker/gh-pages/images/DownPicker/UITextField.base.png "Here's a standard UITextField")
+![alt text](https://raw.githubusercontent.com/husseinhj/DownPicker/gh-pages/images/DownPicker/UITextField.base.png "Here's a standard UITextField")
 
 and turns it into this:
 
-![alt text](https://raw.githubusercontent.com/Darkseal/DownPicker/gh-pages/images/DownPicker/UITextField.DownPicker.png "Here's a DownPicker control")
+![alt text](https://raw.githubusercontent.com/husseinhj/DownPicker/gh-pages/images/DownPicker/UITextField.DownPicker.png "Here's a DownPicker++ control")
 
 It's as simple as that. You only need to provide an array of data.
 
@@ -33,16 +33,16 @@ However, if you don't like the *control wrapper* pattern, you can just use it as
 
 DownPicker is available through [CocoaPods](http://cocoapods.org). To install it, simply add the following line to your Podfile:
 
-`pod "DownPicker"`
+`pod "DownPicker++"`
 
-[![CI Status](http://img.shields.io/travis/Darkseal/DownPicker.svg?style=flat)](https://travis-ci.org/Darkseal/DownPicker)
-[![Version](https://img.shields.io/cocoapods/v/DownPicker.svg?style=flat)](http://cocoapods.org/pods/DownPicker)
-[![License](https://img.shields.io/cocoapods/l/DownPicker.svg?style=flat)](http://cocoapods.org/pods/DownPicker)
-[![Platform](https://img.shields.io/cocoapods/p/DownPicker.svg?style=flat)](http://cocoapods.org/pods/DownPicker)
+[![CI Status](http://img.shields.io/travis/husseinhj/DownPicker.svg?style=flat)](https://travis-ci.org/Darkseal/DownPicker)
+[![Version](https://img.shields.io/cocoapods/v/DownPicker++.svg?style=flat)](http://cocoapods.org/pods/DownPicker)
+[![License](https://img.shields.io/cocoapods/l/DownPicker++.svg?style=flat)](http://cocoapods.org/pods/DownPicker)
+[![Platform](https://img.shields.io/cocoapods/p/DownPicker++.svg?style=flat)](http://cocoapods.org/pods/DownPicker)
 
 ### Manual Installation
 
-Download the latest version from [this link](https://github.com/Darkseal/DownPicker/archive/master.zip), 
+Download the latest version from [this link](https://github.com/husseinhj/DownPicker/archive/master.zip), 
 then unzip & drag-drop the /DownPicker/ folder inside your iOS project. You can do that directly within Xcode,
 just be sure you have the **copy items if needed** and the **create groups** options checked.
 
@@ -130,29 +130,17 @@ You can use `[UIImage imageNamed:@"yourCustomImage.png"]` to set any image in yo
 
 
 ## Useful Links
-- [DownPicker project page](http://darkseal.github.io/DownPicker/) on [GitHub](https://github.com)
 - [DownPicker main repository](https://github.com/Darkseal/DownPicker) on [GitHub](https://github.com)
-- [DownPicker pod page](http://cocoapods.org/pods/DownPicker) at [CocoaPods](http://cocoapods.org/)
+- [DownPicker pod page](http://cocoapods.org/pods/DownPicker++) at [CocoaPods](http://cocoapods.org/)
 - [DownPicker project page](https://www.cocoacontrols.com/controls/downpicker) at [CocoaControls](https://www.cocoacontrols.com)
-- [DownPicker developer page](http://www.ryadel.com/works/downpicker/) at [Ryadel.com](http://www.ryadel.com/)
 - [DownPicker installation guide](http://www.ryadel.com/downpicker-dropdownlist-combobox-ios-xcode-in-objective-c/) at [Ryadel.com](http://www.ryadel.com/)
 - [Donation & support page](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=F576E73P5X526)
 
-
-## Support
-
-You can support this project's development by clicking on the following button.
-
-[<img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" alt="Donate">](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=F576E73P5X526)
-
-Thanks a lot!
-
-
 ## Author
 
-Ryan, ryan@ryadel.com
+Hussein.Juybari@gmail.com
 
 
 ## License
 
-DownPicker is available under the MIT license. See the LICENSE file for more info.
+DownPicker++ is available under the MIT license. See the LICENSE file for more info.

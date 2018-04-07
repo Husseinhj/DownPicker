@@ -63,7 +63,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8BD6C59BBF6B5743E3481302 /* Pods-DownPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownPicker_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DownPicker_Tests/Pods-DownPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AC14DC5AD61DA336804934B3 /* Pods-DownPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownPicker_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DownPicker_Example/Pods-DownPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B31E610D8CEA0B07FA9BBD73 /* DownPicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DownPicker.podspec; path = ../DownPicker.podspec; sourceTree = "<group>"; };
+		B31E610D8CEA0B07FA9BBD73 /* DownPicker++.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "DownPicker++.podspec"; path = "../DownPicker++.podspec"; sourceTree = "<group>"; };
 		C504827BBA3B441C1B93B965 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F2CD24801BA1F5B50054CC54 /* DownPicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DownPicker.framework; path = "Pods/../build/Debug-iphoneos/DownPicker.framework"; sourceTree = "<group>"; };
 		F2CD24821BA1F6AA0054CC54 /* DownPicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DownPicker.framework; path = "Pods/../build/Debug-iphoneos/DownPicker.framework"; sourceTree = "<group>"; };
@@ -192,7 +192,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				B31E610D8CEA0B07FA9BBD73 /* DownPicker.podspec */,
+				B31E610D8CEA0B07FA9BBD73 /* DownPicker++.podspec */,
 				44987258885F36C3104BB9DB /* README.md */,
 				C504827BBA3B441C1B93B965 /* LICENSE */,
 			);
