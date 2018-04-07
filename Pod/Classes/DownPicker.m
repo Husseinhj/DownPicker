@@ -5,8 +5,8 @@
 //
 // by Darkseal, 2013-2015 - MIT License
 //
-// Website: http://www.ryadel.com/
-// GitHub:  http://www.ryadel.com/
+// Website: http://husseinhj.github.io/
+// GitHub:  http://www.github.io/Husseinhj
 //
 
 
@@ -47,16 +47,24 @@
         // set the placeholder
         self->textField.placeholder = self->placeholder;
         
-        // setup the arrow image
-        UIImage* img = [UIImage imageNamed:@"downArrow.png"];   // non-CocoaPods
-        if (img == nil) img = [UIImage imageNamed:@"DownPicker.bundle/downArrow.png"]; // CocoaPods
-        if (img != nil) self->textField.rightView = [[UIImageView alloc] initWithImage:img];
+        self->textField.rightView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 21, 25)];
         self->textField.rightView.contentMode = UIViewContentModeScaleAspectFit;
         self->textField.rightView.clipsToBounds = YES;
         
+        // setup the arrow image
+        UILabel *iconLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, -4.5, 25, 20)];
+        iconLabel.text = @"⌃";
+        iconLabel.font = [UIFont systemFontOfSize:20];
+        iconLabel.textColor = self->textField.textColor;
+        [iconLabel sizeToFit];
+        
+        iconLabel.transform = CGAffineTransformMakeRotation(M_PI);
+        
+        [self->textField.rightView addSubview:iconLabel];
+        
         // show the arrow image by default
         [self showArrowImage:YES];
-
+        
         // set the data array (if present)
         if (data != nil) {
             [self setData: data];
