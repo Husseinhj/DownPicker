@@ -24,4 +24,24 @@
     return self;
 }
 
+#pragma mark - override rect methods
+
+- (CGRect)rightViewRectForBounds:(CGRect)bounds{
+    [super rightViewRectForBounds:bounds];
+    
+    if (self.textAlignment == NSTextAlignmentRight) {
+        return CGRectMake(bounds.origin.x + 10, (self.bounds.size.height/2)-11, 21, 25);
+    }
+    return CGRectMake(self.bounds.size.width - 25, (self.bounds.size.height/2)-11, 21, 25);
+}
+
+-(CGRect) textRectForBounds:(CGRect)bounds{
+    [super textRectForBounds:bounds];
+    
+    if (self.textAlignment == NSTextAlignmentRight) {
+        return CGRectMake(30, 0, bounds.size.width-35, bounds.size.height);
+    }
+    return CGRectMake(10, 0, bounds.size.width-35, bounds.size.height);
+}
+
 @end
