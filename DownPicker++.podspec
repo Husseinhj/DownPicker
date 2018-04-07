@@ -41,7 +41,7 @@ Installation instructions, examples and documentation are available in the inclu
 
   s.source_files = 'Pod/Classes/*.{h,m}'
   s.resource_bundles = {
-    'DownPicker' => ['Pod/Assets/*.png']
+    'DownPicker++' => ['Pod/Assets/*.png']
   }
 
   s.public_header_files = 'Pod/Classes/*.h'
