@@ -1,4 +1,5 @@
-# DownPicker++
+# DownPicker++ [![CI Status](https://travis-ci.org/Husseinhj/DownPicker.svg?style=flat)](https://travis-ci.org/husseinhj/DownPicker) [![Version](https://img.shields.io/cocoapods/v/DownPicker++.svg?style=flat)](http://cocoapods.org/pods/DownPicker) [![License](https://img.shields.io/cocoapods/l/DownPicker++.svg?style=flat)](http://cocoapods.org/pods/DownPicker) [![Platform](https://img.shields.io/cocoapods/p/DownPicker++.svg?style=flat)](http://cocoapods.org/pods/DownPicker)
+
 
 DownPicker is an extremely light-weight class library for creating *DropDownList* / *ComboBox* controls for iOS that will behave like their HTML / Android counterparts.
 You'll only need a standard **UITextField** and few lines of code.
@@ -33,12 +34,9 @@ However, if you don't like the *control wrapper* pattern, you can just use it as
 
 DownPicker is available through [CocoaPods](http://cocoapods.org). To install it, simply add the following line to your Podfile:
 
-`pod "DownPicker++"`
-
-[![CI Status](https://travis-ci.org/Husseinhj/DownPicker.svg?style=flat)](https://travis-ci.org/husseinhj/DownPicker)
-[![Version](https://img.shields.io/cocoapods/v/DownPicker++.svg?style=flat)](http://cocoapods.org/pods/DownPicker)
-[![License](https://img.shields.io/cocoapods/l/DownPicker++.svg?style=flat)](http://cocoapods.org/pods/DownPicker)
-[![Platform](https://img.shields.io/cocoapods/p/DownPicker++.svg?style=flat)](http://cocoapods.org/pods/DownPicker)
+```ruby
+pod "DownPicker++"
+```
 
 ### Manual Installation
 
