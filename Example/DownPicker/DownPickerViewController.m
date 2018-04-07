@@ -17,8 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSArray *el = @[@"R.E.M.", @"Dire Straits", @"Police", @"Sex Pistols", @"Pink Floyd"];
+    NSArray *el = @[@"فوتبال", @"کشتی", @"تنیس", @"شنا", @"والیبال"];
     self.picker = [[DownPicker alloc] initWithTextField:self.textField withData:el];
+    [self.picker setToolbarDoneButtonText:@"تایید"];
+    [self.picker setToolbarCancelButtonText:@"انصراف"];
+    [self.picker setPlaceholder:@"ورزش مورد علاقه خود را انتخاب کنید"];
     
     NSArray *el2 = @[@"Prodigy", @"Arctic Monkeys", @"System of a Down", @"Limp Bizkit", @"Linkin Park"];
     self.picker2 = [[DownPicker alloc] initWithTextField:self.textField2 withData:el2];
