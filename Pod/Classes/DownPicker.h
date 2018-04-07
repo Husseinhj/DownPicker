@@ -13,6 +13,7 @@
 
 @interface DownPicker : UIControl<UIPickerViewDelegate, UIPickerViewDataSource, UITextFieldDelegate>
 {
+    UIFont* font;
     UIPickerView* pickerView;
     IBOutlet UITextField* textField;
     NSArray* dataArray;
@@ -38,6 +39,7 @@
  */
 -(void) setArrowImage:(UIImage*)image;
 
+-(void) setFont:(UIFont *) font;
 -(void) setData:(NSArray*) data;
 -(void) setPlaceholder:(NSString*)str;
 -(void) setPlaceholderWhileSelecting:(NSString*)str;

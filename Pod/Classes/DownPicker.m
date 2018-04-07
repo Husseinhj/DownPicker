@@ -16,6 +16,7 @@
 @implementation DownPicker
 {
     NSString* _previousSelectedString;
+    UIFont* _font;
 }
 
 -(id)initWithTextField:(UITextField *)tf
@@ -97,9 +98,18 @@
     return [dataArray count];
 }
 
-- (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component;
-{
-    return [dataArray objectAtIndex:row];
+- (UIView *)pickerView:(UIPickerView *)pickerView viewForRow:(NSInteger)row forComponent:(NSInteger)component reusingView:(UIView *)view{
+    UILabel* titleView = (UILabel*)view;
+    if (!titleView){
+        titleView = [[UILabel alloc] init];
+    }
+    if (_font) {
+        titleView.font = _font;
+    }
+    titleView.textAlignment = NSTextAlignmentCenter;
+    titleView.text = [dataArray objectAtIndex:row];
+    
+    return titleView;
 }
 
 -(void)doneClicked:(id) sender
@@ -330,6 +340,13 @@
  */
 - (void)setSelectedIndex:(NSInteger)index {
     [self setValueAtIndex:(NSInteger)index];
+}
+
+-(void) setFont:(UIFont *) font{
+    _font = font;
+}
+-(void) setToolbarColor:(UIColor *) toolbarColor{
+    _toolbarColor = toolbarColor;
 }
 
 @end
