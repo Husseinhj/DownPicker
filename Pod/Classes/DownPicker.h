@@ -14,6 +14,7 @@
 @interface DownPicker : UIControl<UIPickerViewDelegate, UIPickerViewDataSource, UITextFieldDelegate>
 {
     UIFont* font;
+    UIColor *toolbarColor;
     UIPickerView* pickerView;
     IBOutlet UITextField* textField;
     NSArray* dataArray;
@@ -47,6 +48,7 @@
 -(void) setToolbarDoneButtonText:(NSString*)str;
 -(void) setToolbarCancelButtonText:(NSString*)str;
 -(void) setToolbarStyle:(UIBarStyle)style;
+-(void) setToolbarColor:(UIColor *) toolbarColor;
 
 /**
  TRUE to show the rightmost arrow image, FALSE to hide it.

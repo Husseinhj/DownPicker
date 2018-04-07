@@ -17,6 +17,7 @@
 {
     NSString* _previousSelectedString;
     UIFont* _font;
+    UIColor* _toolbarColor;
 }
 
 -(id)initWithTextField:(UITextField *)tf
@@ -170,6 +171,9 @@
 
     UIToolbar* toolbar = [[UIToolbar alloc] init];
     toolbar.barStyle = self->toolbarStyle;
+    if (_toolbarColor) {
+        toolbar.backgroundColor = _toolbarColor;
+    }
     [toolbar sizeToFit];
     
     //space between buttons
