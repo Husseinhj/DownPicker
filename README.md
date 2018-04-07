@@ -35,7 +35,7 @@ DownPicker is available through [CocoaPods](http://cocoapods.org). To install it
 
 `pod "DownPicker++"`
 
-[![CI Status](http://img.shields.io/travis/husseinhj/DownPicker.svg?style=flat)](https://travis-ci.org/Darkseal/DownPicker)
+[![CI Status](https://travis-ci.org/Husseinhj/DownPicker.svg?style=flat)](https://travis-ci.org/husseinhj/DownPicker)
 [![Version](https://img.shields.io/cocoapods/v/DownPicker++.svg?style=flat)](http://cocoapods.org/pods/DownPicker)
 [![License](https://img.shields.io/cocoapods/l/DownPicker++.svg?style=flat)](http://cocoapods.org/pods/DownPicker)
 [![Platform](https://img.shields.io/cocoapods/p/DownPicker++.svg?style=flat)](http://cocoapods.org/pods/DownPicker)
